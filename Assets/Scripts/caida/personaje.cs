@@ -19,7 +19,7 @@ public class personaje : MonoBehaviour
         
         if (Input.GetMouseButton(0)) // si presiona el click 
         {
-            Debug.Log(Input.mousePosition);
+            //Debug.Log(Input.mousePosition);
 
             if(Input.mousePosition.x < 300) // si es en la parte izquierda
             {

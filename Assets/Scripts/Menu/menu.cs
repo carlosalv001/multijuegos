@@ -20,7 +20,11 @@ public class menu : MonoBehaviour
 
     public void clickJugar()
     {
-        SceneManager.LoadScene("Caida");
+        int nivel = Random.Range(1, 3);
+        if(nivel == 1)
+            SceneManager.LoadScene("Caida");
+        if (nivel == 2)
+            SceneManager.LoadScene("Meteoro");
     }
 
     
